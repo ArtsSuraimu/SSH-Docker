@@ -3,7 +3,7 @@
 Take an existing Docker image (here example: [NGC](https://ngc.nvidia.com)) and enable SSH access to the container.
 
 ## Build
-```
+```bash
 git clone https://github.com/twittidai/SSH-Docker.git
 cd SSH-Docker
 docker build -t tf1-19.10-ssh .
