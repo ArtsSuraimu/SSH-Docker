@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/tensorflow:19.10-py3
+FROM nvcr.io/nvidia/tensorflow:20.06-tf2-py3
 
 WORKDIR /
 RUN apt-get update
