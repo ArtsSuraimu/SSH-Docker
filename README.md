@@ -6,12 +6,12 @@ Take an existing Docker image (here example: [NGC](https://ngc.nvidia.com)) and 
 ```bash
 git clone https://github.com/twittidai/SSH-Docker.git
 cd SSH-Docker
-docker build -t tf1-19.10-ssh .
+docker build -t tf2-20.06-ssh:latest .
 ```
 
 ## Run
 ```
-docker run --runtime=nvidia -it --rm -p 10022:22 -v $PWD:/workspace tf1-19.10-ssh:latest
+docker run --runtime=nvidia -it --rm -p 10022:22 -v $PWD:/workspace tf2-20.06-ssh:latest
 ```
 
 ## Connect
